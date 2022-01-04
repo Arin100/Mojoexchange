@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%;
+    color: #fff;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgb(235, 19, 19);
+}
+nav .btn{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(7, 25, 192);
+}
+nav .btn:hover{
+    background-color: #ff0000;
+}
+.content{
+    margin-top: 5%;
+}
+.content h1{
+    font-size: 88px;
+    margin-bottom: 15px;
+}
+.content h1 span{
+    color: rgb(235, 232, 28);
+}
+.content h1 span1{
+    color: rgb(230, 52, 21);
+}
+.content p{
+    line-height: 22px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: semi-bold;
+} 
+.content .btn{
+    display: inline-block;
+    margin-top: 30px;
+    background:burlywood;
+    color: rgb(0, 12, 6);
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+.content .btn:hover{
+    background: rgb(0, 12, 6);
+    color: burlywood;
+}
+.coin-list{
+    position: absolute;
+    right: 10%;
+    bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+.coin{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 15px;
+    color: yellow;
+    border: 1px solid #fff;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+.coin img{
+    width: 50px;
+    margin-right: 10px;
+}
+.coin h3{
+    color: white;
+    margin-bottom: 5px;
+}
+.coin h6{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.coin p{
+    color: rgb(223, 238, 13);
+    font-size: 20px;
+    font-weight: bold;
+}
+.coin p:hover{
+    color: brown;
+}
+.footer{
+    width: 100%;
+    background: rgb(3, 8, 32);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer .footer-info a{
+    text-decoration: none;
+}
+.footer .footer-info h3{
+    text-decoration: none;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.footer .footer-info  p{
+    font-size: 25px;
+    color: #ffffff;
+}
+.footer .footer-content img{
+    width: 30px;
+    margin-bottom: 25px;
+    white-space: normal;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

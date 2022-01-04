@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(images/exchange.jpg);
+    background-size: cover;
+    background-position: center;
+    font-weight: semi-bold;
+}
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 30px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+.sign-up-form h1{
+    color: rgb(22, 18, 221);
+    margin-bottom: 10px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+}
+button{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(32, 202, 26);
+}
+.google-btn{
+    background-color: rgb(15, 57, 247);
+    color: rgb(255, 255, 255);
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(40, 65, 209);
+}
+hr{
+    margin-top: 20px;
+    width: 80%
+}
+.or {
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 70px;
+    margin-top: -20px;
+}
+.g-signin2{
+    margin-top: 10px;
+    align-items: center;
+    padding-left: 85px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
